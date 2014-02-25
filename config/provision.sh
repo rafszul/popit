@@ -55,10 +55,10 @@ chmod 755 /usr/local/bin/chromedriver
 echo "##############################"
 echo "Installing compass, watir-webdriver and pry"
 echo "##############################"
-gem install watir-webdriver -v 0.6.7
-gem install pry -v 0.9.12.6
-gem install sass -v 3.2.14
-gem install compass -v 0.12.2
+gem install watir-webdriver -v 0.6.7 --no-rdoc --no-ri
+gem install pry -v 0.9.12.6 --no-rdoc --no-ri
+gem install sass -v 3.2.14 --no-rdoc --no-ri
+gem install compass -v 0.12.2 --no-rdoc --no-ri
 
 # Set up Xvfb to run all the time on display :99
 echo "##############################"
