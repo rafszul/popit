@@ -1,6 +1,6 @@
 {
   "name": "popit",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "dependencies": {
     "async": {
       "version": "0.1.22",
@@ -819,8 +819,8 @@
     },
     "popit-api": {
       "version": "0.0.13",
-      "from": "git://github.com/mysociety/popit-api.git#master",
-      "resolved": "git://github.com/mysociety/popit-api.git#c20258047830a26a893317885ed922bf6d9bb481",
+      "from": "git://github.com/mysociety/popit-api.git#coalitions",
+      "resolved": "git://github.com/mysociety/popit-api.git#9d9f0582ce0d70936ecbac466886e40c9c031ffd",
       "dependencies": {
         "express": {
           "version": "3.1.2",
@@ -1025,7 +1025,6 @@
         "elasticsearch": {
           "version": "1.5.10",
           "from": "elasticsearch@~1.5.1",
-          "resolved": "https://registry.npmjs.org/elasticsearch/-/elasticsearch-1.5.10.tgz",
           "dependencies": {
             "chalk": {
               "version": "0.3.0",
