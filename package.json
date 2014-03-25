@@ -50,7 +50,10 @@
   "scripts": {
     "test": "make test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "supertest": "~0.10.0"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "0.8.x"
