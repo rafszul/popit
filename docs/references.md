@@ -27,6 +27,6 @@ These are the more major tools used to create the PopIt app:
 
 ## Testing
 
- * [NodeUnit](https://github.com/caolan/nodeunit/blob/master/README.md) unit tests
+ * [Mocha](http://visionmedia.github.io/mocha/) unit tests
  * [Watir](http://watirwebdriver.com/) Ruby library for driving browsers to test websites
 
